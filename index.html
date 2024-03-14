@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mali&display=swap">
+    <title>BTL AI</title>
+
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class = "display">
+        <div class = "gridContainer">
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+            <div class="gridItem"></div>
+        </div>
+        
+        <form action="" class = "objectContainer">
+            <label for="startRadio" style="color:white; box-shadow: inset 0 0 0.5em 0 currentColor, 0 0 0.5em 0 currentColor; cursor: pointer">
+                S<input type="radio" id = "startRadio" name = "object" value = "S" onclick="chooseObject(value)">
+                </label>
+    
+            <label for="impedimentRadio" style="color:red; box-shadow: inset 0 0 0.5em 0 currentColor, 0 0 0.5em 0 currentColor; cursor: pointer">
+                <input type="radio" id = "impedimentRadio" name = "object" value = "X" onclick="chooseObject(value)">
+                ❌</label>
+    
+            <label for="goalRadio"  style="color:var(--green-neon); box-shadow: inset 0 0 0.5em 0 currentColor, 0 0 0.5em 0 currentColor; cursor: pointer">
+                <input type="radio" id = "goalRadio" name = "object" value = "G" onclick="chooseObject(value)">
+                G</label>
+        </form>
+    </div>
+
+
+    <div class = "function">
+        <div class = "functionElement">
+            <div class = "statusTable">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>STT</th>
+                            <th>NÚT</th>
+                            <th>TẬP BIÊN</th>
+                            <th>GIỚI HẠN</th>
+                        </tr>
+                    </thead>
+        
+                    <tbody>
+                        <!-- <tr>
+                            <td>0</td>
+                            <td></td>
+                            <td>S</td>
+                            <td>Hehe</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>S</td>
+                            <td>C3[S](15)123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123, 123,123,123,123, 123, 123, 123, 123</td>
+                            <td>Hehe</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>25</td>
+                            <td>Los Angeles</td>
+                            <td>Hehe</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>35</td>
+                            <td>Chicago</td>
+                            <td>Hehe</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>35</td>
+                            <td>Chicago</td>
+                            <td>Hehe</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>35</td>
+                            <td>Chicago</td>
+                            <td>Hehe</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>35</td>
+                            <td>Chicago</td>
+                            <td>Hehe</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>35</td>
+                            <td>Chicago</td>
+                            <td>Hehe</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>35</td>
+                            <td>Chicago</td>
+                            <td>Hehe</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>35</td>
+                            <td>Chicago</td>
+                            <td>Hehe</td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+        
+            <div class = "controller">
+                <div class = "buttons">
+                    <button id = "startButton">SOLVE</button>
+                    <input type="range" value = "1" min = "1" max = "10" id = "speedInput">
+                    <button id = "playButton">PLAY</button>
+                    <button id = "prevButton">&#10096</button>
+                    <button id = "nextButton">&#10097</button>
+                </div>
+                <form action="" class = "algorithms">
+                    <label for="aAlgorithm">
+                        <input type="radio" id = "aAlgorithm" name = "algorithm" value = "a" onclick="chooseAlgorithm(value)">
+                        A*</label>
+        
+                    <label for="ideaAlgorithm">
+                        <input type="radio" id = "ideaAlgorithm" name = "algorithm" value = "idea" onclick="chooseAlgorithm(value)">
+                        IDEA*</label>
+        
+                    <label for="dfsAlgorithm">
+                        <input type="radio" id = "dfsAlgorithm" name = "algorithm" value = "dfs" onclick="chooseAlgorithm(value)">
+                        DFS</label>
+        
+                    <label for="bfsAlgorithm">
+                        <input type="radio" id = "bfsAlgorithm" name = "algorithm" value = "bfs" onclick="chooseAlgorithm(value)">
+                        BFS</label>
+        
+                    <label for="dijkstraAlgorithm">
+                        <input type="radio" id = "dijkstraAlgorithm" name = "algorithm" value = "dijkstra" onclick="chooseAlgorithm(value)">
+                        Dijkstra</label>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src = "box.js"></script>
+    <script src = "input.js"></script>
+    <script src = "database.js"></script>
+    <script src = "controller.js"></script>
+    <script src = "index.js" type="module"></script>
+</body>
+</html>
