@@ -78,17 +78,16 @@ body
 }
 .gridItem-standing
 {
-    background-color: aquamarine;
     border-color: var(--yellow-neon);
     transform: scale(1.5); 
     filter: brightness(3);
 }
 .way
 {
-    background-color: aquamarine;
-    border-color: var(--yellow-neon);
+    border-color: var(--green-neon);
+    box-shadow: inset 0 0 0.5em 0 currentColor, 0 0 0.5em 0 currentColor;
     transform: scale(1.2); 
-    filter: brightness(2);
+    /* filter: brightness(2); */
 }
 
 
