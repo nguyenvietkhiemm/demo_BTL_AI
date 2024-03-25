@@ -44,7 +44,6 @@ function setupInput()
             }
         }
     }
-
     // boxes.forEach(row => row.forEach(box => console.log(box)));
 }
 
