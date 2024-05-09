@@ -130,7 +130,6 @@ function resetFullBox()
             if (box.value === null)
             {
                 box.box.style.backgroundColor = null;
-                console.log("hehe")
             }
         }));
 }

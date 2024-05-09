@@ -30,6 +30,7 @@ function findNeighbors(box) {
 function a() {
     var goal = goals[0];
     let openSet = [boxes[start.i][start.j]];
+    console.log(openSet);
     let no = 0; // khởi tạo biến số thứ tự trong bảng
 
     table["a"].no.push(no);
@@ -40,13 +41,11 @@ function a() {
     table["a"].nodeList.push(openSet);
 
     while (openSet.length > 0) 
-    {
+    { 
         no++;
         table["a"].no.push(no); 
-
-        let nodeList = [];
         // Tìm nút có giá trị f thấp nhất trong openSet (tập biên)
-        let node = openSet.reduce((lowest, box) => 
+        const node = openSet.reduce((lowest, box) => 
         {
             if (lowest == null || box.f < lowest.f) 
             {
@@ -56,7 +55,7 @@ function a() {
         }, null);
 
         table["a"].node.push(node); // thêm node đang xét vào tập nút trong DATABASE
-
+        // const cloneObject = Object.assign({}, originalObject);
         // Nếu nút hiện tại là goal, xây dựng và trả về đường đi
         if (node.value === "G") 
         {

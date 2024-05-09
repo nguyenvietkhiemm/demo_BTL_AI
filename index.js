@@ -50,8 +50,6 @@ function setupInput()
 const btn = document.getElementById("startButton");
 btn.addEventListener("click", solve);
 
-
-
 function solve()
 {
     setupInput();
