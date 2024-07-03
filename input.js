@@ -6,6 +6,7 @@ for (let i = 0; i < 10; i++)
     let row = []
     for (let j = 0; j < 10; j++)
     {
+        tmp_boxes[v].title = `x = ${i}\ny = ${j}`;
         row.push(new Box(tmp_boxes[v], i, j));
         v++;
     }
